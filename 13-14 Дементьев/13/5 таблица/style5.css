@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.pricing-table {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.pricing-table h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+.pricing-table p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+.table {
+    display: flex;
+    width: 100%;
+}
+.pricing-plan {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+.pricing-plan:nth-child(1) {
+    background-color: #333;
+    color: white;
+}
+.pricing-plan:nth-child(2) {
+    background-color: #21cf96;
+    color: white;
+}
+.pricing-plan:nth-child(3) {
+    background-color: #00aeef;
+    color: white;
+}
+.pricing-plan:nth-child(4) {
+    background-color: #ff5e5e;
+    color: white;
+}
+.pricing-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 2em;
+    margin: 10px 0;
+}
+.price sup {
+    font-size: 0.5em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+li {
+    margin: 10px 0;
+}

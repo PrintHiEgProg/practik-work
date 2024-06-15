@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.custom-table {
+    border-collapse: collapse;
+    border: 10px solid blue;
+    background-color: lightblue;
+}
+.custom-table th, .custom-table td {
+    border: 2px solid green;
+    padding: 10px;
+    text-align: center;
+}
+.custom-table th {
+    background-color: #f4cccc;
+}
+.custom-table td {
+    background-color: #d9ead3;
+}
+.highlight td {
+    background-color: #ffe599;
+}
